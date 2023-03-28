@@ -18,6 +18,8 @@
     pkgs.starship
     pkgs.gcc
     pkgs.direnv
+    pkgs.kubectl
+    pkgs.google-cloud-sdk
   ];
 
   imports = [
